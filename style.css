@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(rgba(255, 166, 0, 0.37), black), url(gym.jpg);
+  height: 100vh;
+  background-position: center;
+  text-transform: uppercase;
+  background-size: cover;
+  position: relative;
+}
+header {
+  font-family: sans-serif;
+}
+h1 {
+  color: white;
+}
+
+span {
+  color: orangered;
+}
+
+nav {
+  position: absolute;
+  right: 50px;
+  top: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.x {
+  color: orangered;
+}
+
+div {
+  background-color: rgba(255, 166, 0, 0.365);
+  padding: 20px 10px;
+}
+
+section {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+h2 {
+  font-size: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+button {
+  font-size: 25px;
+  padding: 5px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
